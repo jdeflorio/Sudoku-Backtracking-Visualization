@@ -53,14 +53,14 @@ const CloseButton = styled.button`
 `;
 
 function ResultsPopUp(props) {
-  const { foundSolution, setOpenPopup, setGrid, testGrid } = props;
+  const { foundSolution, setOpenPopup, setGrid, puzzle } = props;
 
   function handleCloseButton() {
     setOpenPopup(false);
   }
 
   function handleResetButton() {
-    setGrid(testGrid);
+    setGrid(puzzle);
     handleCloseButton();
   }
 
