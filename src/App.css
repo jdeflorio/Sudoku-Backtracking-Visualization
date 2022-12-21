@@ -1,0 +1,15 @@
+:root {
+  background: #121212;
+  --cell-size: 7vh;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+}
+
+h1 {
+  color: white;
+}
