@@ -1,5 +1,6 @@
 {
   "name": "sudoku-backtraking-visualization",
+  "homepage": "http://jdeflorio.github.io/sudoku-backtraking-visualization",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
