@@ -3,11 +3,17 @@
   --cell-size: 7vh;
 }
 
+@media (max-width: 800px) {
+  :root{
+    --cell-size: 4vh;
+  }
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
   justify-content: center;
-  display: grid;
+  display: block;
 }
 
 h1 {

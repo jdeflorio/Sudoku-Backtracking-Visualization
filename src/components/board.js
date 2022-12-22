@@ -4,7 +4,7 @@ import Cell from "./cell";
 
 const BoardContainer = styled.div`
   background: white;
-  margin: 0;
+  margin: auto;
   padding: 0;
   border-style: solid;
   border-width: 3px;
@@ -12,6 +12,8 @@ const BoardContainer = styled.div`
   height: calc((var(--cell-size) + 2px) * 9 + 6px);
   display: flex;
   flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 function Board(props) {
